@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: rgba(32,37,40,255);
+    color: rgb(59,61,60);
 }
 
 *, *:before, *:after {
@@ -15,7 +15,7 @@
 header{
     padding: 15px 0;
     width: 100%;
-    background-color: rgba(233,237,242,255);
+    background-color: rgb(233,237,242);
 }
 
 #logo-AC{
@@ -39,7 +39,7 @@ nav li {
     font-weight: 600; 
 }
 nav li a:hover{
-    color: rgba(174,181,194,255);
+    color: rgb(174,181,194);
 }
 .nav-droite{
     margin: 0 40px 0 auto;
@@ -55,20 +55,21 @@ header h1{
 /****************************************************/
 
 a{   
-    color: rgba(32,37,40,255);
+    color: rgb(59,61,60);
     text-decoration: none;
 }
 
 /*************************** Section1 "contain what it does" ************************/
 
 .contain-what-it-does{
+    box-sizing: border-box;
     width: 100%;
-    background-color: rgba(63,70,85,255);
+    background-color: rgb(63,70,85);
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    border: 2px solid rgba(32,37,40,255);
+    border: 2px solid rgb(59,61,60);
 }
 .contain-what-it-does div{
     width: 16%;
@@ -78,7 +79,7 @@ a{
 .contain-what-it-does .int {  
     border-width: 0 2px 0 2px;
     border-style: solid;
-    border-color: rgba(32,37,40,255);
+    border-color: rgb(59,61,60);
 }
 
 .int + .time-tracking{
@@ -97,8 +98,51 @@ a{
 }
 
 .contain-what-it-does p{
-    color: rgba(140,145,153,255);
+    color: rgb(140,145,153);
     padding: 10px;
 }
 
+/*************************** Section2 "contain try it" ************************/
 
+.contain-try-it{
+    background-color:rgb(231,235,240);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    /* background-image: url(../images/icon-bg.jpg); */
+}
+
+.contain-text-try-it{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.contain-try-it h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.2rem;  
+    padding: 40px;
+}
+
+h2.buton-blue{
+    display: inline-block;
+    background-color: rgb(70,140,243);
+    color: rgb(246,251,254);
+    margin: 20px;
+    padding: 0 30px;
+    border: 1px solid rgb(59,61,60);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.contain-try-it p{
+    font-size: 0.8rem;
+}
+.img-task-manager {
+    margin-top: 100px;
+    width: 50%;
+    box-shadow: 0 0 30px rgba(59,61,60,0.5);
+    border-radius: 15px;
+}
+
+
+/*************************** Section3 "contain cloud server" ************************/
