@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+header{
+    padding: 15px 0;
+    width: 100%;
+    background-color:  rgba(233,237,242,255);
+}
+
+#logo-AC{
+    height: 50px;
+    margin-right:20px ;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+nav li {   
+    display: inline;
+    margin: 0 15px;
+    list-style: none;
+    text-decoration: none; 
+    font-weight: 600; 
+}
+nav li a:hover{
+    color: rgba(174,181,194,255);
+}
+.nav-droite{
+    margin: 0 40px 0 auto;
+}
+
+header h1{
+    text-align: center;
+    font-weight: 380;
+    font-size: 4rem;
+    padding: 60px 0;
+}
+
+
+
+
+
+
+a{   
+    color: rgba(32,37,40,255);
+    text-decoration: none;
+}
+
+img{
+    height: 30px;
+}
+
+
+
