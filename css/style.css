@@ -3,28 +3,31 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: rgba(32,37,40,255);
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
+/*************************** Header Nav ************************/
+
 header{
     padding: 15px 0;
     width: 100%;
-    background-color:  rgba(233,237,242,255);
+    background-color: rgba(233,237,242,255);
 }
 
 #logo-AC{
     height: 50px;
-    margin-right:20px ;
+    margin-right: 20px;
+    padding: 0 15px;
 }
 
 nav {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 0 15px;
     width: 100%;
 }
 
@@ -49,19 +52,53 @@ header h1{
     padding: 60px 0;
 }
 
-
-
-
-
+/****************************************************/
 
 a{   
     color: rgba(32,37,40,255);
     text-decoration: none;
 }
 
-img{
-    height: 30px;
+/*************************** Section1 "contain what it does" ************************/
+
+.contain-what-it-does{
+    width: 100%;
+    background-color: rgba(63,70,85,255);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid rgba(32,37,40,255);
+}
+.contain-what-it-does div{
+    width: 16%;
+    padding: 40px;  
 }
 
+.contain-what-it-does .int {  
+    border-width: 0 2px 0 2px;
+    border-style: solid;
+    border-color: rgba(32,37,40,255);
+}
+
+.int + .time-tracking{
+    border-left: none;
+}
+
+.img-section1{
+    margin: 0 auto;
+    max-height: 230px;
+}
+
+.contain-what-it-does h3{
+    letter-spacing: 0.1em;
+    color: white;
+    padding-top: 20px;
+}
+
+.contain-what-it-does p{
+    color: rgba(140,145,153,255);
+    padding: 10px;
+}
 
 
