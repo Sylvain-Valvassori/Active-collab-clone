@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family:adelle-sans,"Helvetica Neue",Arial,sans-serif;
-    color: rgb(32,37,40);
     font-weight: 400;
 }
 
@@ -25,7 +24,8 @@ a{
     transition: all 0.1s ease-in-out;
     text-decoration: none;
     cursor: pointer;
-
+    color: rgb(32,37,40);
+    
 }
 
 
@@ -282,3 +282,140 @@ h2+.buton-blue a {
 /*************************** Section5 "Le formulaire" ************************/
 
 
+.contain-form{
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contain-form .container-text h2{
+    font-size: 2.5em;
+}
+.contain-form .container-text p  {
+    margin: -30px auto 0 auto;
+    font-size: 1.3em;
+    width: 60%;
+}
+
+form {
+    margin: 0 auto;
+    vertical-align: baseline;
+    background-color:rgb(233, 237, 242);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    max-width: 480px;
+
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 8%;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+form input{
+    width: 80%;
+    padding: 0.5em;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: 550;
+    color: rgb(246,251,254);
+    background-color: rgb(63, 155, 248);
+    margin: 40px 0 20px 0;
+    padding:0.5em  1em;
+    border: 1px solid #202528;
+    width: 30%;
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(58, 141, 224);
+}
+
+form p{
+    margin-bottom: 30px;
+}
+
+
+.content-under-form, .content-under-form a{
+    margin: 30px;
+    padding: 0;
+    font-size: 0.9em;
+    color: rgb(114, 124, 142) !important;
+}
+
+.content-under-form a{
+    border-bottom: 1px solid;
+}
+
+
+
+/*************************** Le footer ************************/
+
+
+footer{
+    background-color: rgb(63, 70, 85);
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.container-footer{
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0;
+}
+
+footer li {   
+    list-style-type: none;
+    text-decoration: none;  
+    font-size: 0.9em;
+    margin: 0.5em 2em;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+footer li a{
+    color: white;
+}
+
+.head-list, .copyright{
+    color: white;
+    opacity: 0.5;
+}
+footer li a:hover{
+    opacity: 0.5;
+}
+.container-socials{
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.container-socials img{
+    width: 35px;
+    height: 35px;
+    margin: 0 5px;
+}
+.copyright{
+    font-size: 0.8em;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    padding: 20px 0 50px;
+}
