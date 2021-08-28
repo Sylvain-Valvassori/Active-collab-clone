@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(59,61,60);
 }
 
@@ -110,6 +110,7 @@ a{
     width: 100%;
     text-align: center;
     /* background-image: url(../images/icon-bg.jpg); */
+    overflow: hidden;
 }
 
 .contain-text-try-it{
@@ -117,14 +118,14 @@ a{
     max-width: 800px;
 }
 
-.contain-try-it h2{
+.contain-try-it h2, .container-text-cloud p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     line-height: 2.2rem;  
     padding: 40px;
 }
 
-h2.buton-blue{
+h2+.buton-blue a{
     display: inline-block;
     background-color: rgb(70,140,243);
     color: rgb(246,251,254);
@@ -139,6 +140,7 @@ h2.buton-blue{
 }
 .img-task-manager {
     margin-top: 100px;
+    margin-bottom: -4px;
     width: 50%;
     box-shadow: 0 0 30px rgba(59,61,60,0.5);
     border-radius: 15px;
@@ -146,3 +148,78 @@ h2.buton-blue{
 
 
 /*************************** Section3 "contain cloud server" ************************/
+
+.contain-cloud-server{
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.container-text-cloud{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.container-text-cloud h2{
+    text-align: center;
+    font-weight: 380;
+    font-size: 2rem;
+}
+
+.container-text-cloud p{
+    padding: 20px 0 80px 0;
+}
+
+.price-AC{
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    padding: 60px;
+}
+
+.container-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.price-AC.monthly-plans{
+    border-right: 1px solid rgb(133, 133, 133);
+}
+
+.contain-cloud-server img{
+    width: 200px;
+}
+
+.price-AC h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.price-AC p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem; 
+}
+
+.price-AC p.buton-blue{
+    display: inline-block;
+    background-color: rgb(70,140,243);
+    color: rgb(246,251,254);
+    margin: 20px;
+    padding: 0 10px;
+    border: 1px solid rgb(59,61,60);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.price-AC p.price-abonement{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0 20px;
+}
+
+/*************************** Section4 "contain who use active collab" ************************/
+
