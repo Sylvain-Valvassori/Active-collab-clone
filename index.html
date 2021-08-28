@@ -16,12 +16,12 @@
     <header>
         <nav>
             <a href="#">
-                <img id="logo-AC" src="images/activecollab-logo.svg" alt="logo" height="100">
+                <img id="logo-AC" src="images/svg/activecollab-logo.svg" alt="logo" height="100">
             </a>
             <ul class="nav-gauche">
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
-                <li><a href="#">More +</a></li>
+                <li><a href="#" style="color: rgb(114, 124, 142);">More +</a></li>
             </ul>
 
             <ul class="nav-droite">
@@ -41,26 +41,28 @@
 
 
 <section class="contain-what-it-does">
-    <div class="task-management">
-        <img class="img-section1" src="images/IconWait.png" alt="*">
-        <h3>Task Management</h3>
-        <p>Stay organized with an advanced to-do list and track your project.</p>
-    </div>
-    <div class="int team-collaboration">
-        <img class="img-section1" src="images/IconWait.png" alt="*">
-        <h3>Team Collaboration</h3>
-        <p>Efficiently work together with your team to delver top-notch results.</p>
-    </div>
-    <div class="int time-tracking">
-        <img class="img-section1" src="images/IconWait.png" alt="*">
-        <h3>Time Tracking</h3>
-        <p>Track every minutes of your work and bill clients accordingly.</p>
-    </div>
-    <div class="invoicing">
-        <img class="img-section1" src="images/IconWait.png" alt="*">
-        <h3>Invoicing</h3>
-        <p>Easily issue invoices for your work, save time and get paid.</p>
-    </div>
+   <div class="container-hero">
+        <a class="hero-feature">
+                <img class="img-section1" src="images/task-management-hero.png" alt="*">
+                <h3>Task Management</h3>
+                <p>Stay organized with an advanced to-do list and track your project.</p>
+        </a>
+        <a class="hero-feature int team-collaboration">
+                <img class="img-section1 " src="images/team-collaboration-hero.png" alt="*">
+                <h3>Team Collaboration</h3>
+                <p>Efficiently work together with your team to delver top-notch results.</p>
+        </a>
+        <a class="hero-feature int time-tracking">
+                <img class="img-section1" src="images/stopwatch.png" alt="*">
+                <h3>Time Tracking</h3>
+                <p>Track every minutes of your work and bill clients accordingly.</p>
+        </a>
+       <a class="hero-feature">
+                <img class="img-section1" src="images/invoicing-hero.png" alt="*">
+                <h3>Invoicing</h3>
+                <p>Easily issue invoices for your work, save time and get paid.</p>
+       </a>
+   </div>
 </section>
 
 
@@ -69,11 +71,13 @@
 
 <section class="contain-try-it">
     <div class="contain-text-try-it">
-        <h2>Active Collab helps your team stay organized whan you outgrow email.But it's so much more than that — with plenty of neat add-ons, it's a one-stop solution for all your business needs.</h2>
+        <h2 class="hero-text">Active Collab helps your team stay organized whan you outgrow email.But it's so much more than that — with plenty of neat add-ons, it's a one-stop solution for all your business needs.</h2>
         <h2 class="buton-blue"><a href="#">Try it free for 30 days!</a></h2>
         <p>No credit card required, unsubscribe at any time.</p>
     </div>
-    <img class="img-task-manager" src="images/task-manager.png" alt="picture of the app">
+    <div class="container-img-task-manager">
+        <img class="img-task-manager" src="images/activecollab-project-management-kanban-screenshot.png" alt="picture of the app">
+    </div>
 </section>
 
 
@@ -81,30 +85,34 @@
 
 
 <section class="contain-cloud-server">
-    <div class="container-text-cloud">
+    <div class="container-text cloud">
         <h2>On our cloud or your server</h2>
-        <p>Active Collab run in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30days and then decide what works best for you.</p>
+        <p class="hero-text">Active Collab run in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30days and then decide what works best for you.</p>
     </div>
     <div class="container-price">
         <div class="price-AC monthly-plans">
-            <img src="images/IconWait.png" alt="*">
-            <h2>Monthly Plans</h2>
+            <img src="images/cloud-plan@2x.png" alt="*">
+            <h3>Monthly Plans</h3>
             <p>In the cloud</p>
             <p>No setuo required</p>
             <p>Ready in 2 minutes</p>
-            <p class="buton-blue">Plans & Pricing</p>
+            <p class="buton-blue">
+                <a href="#">Plans & Pricing</a>
+            </p>
             <p class="price-abonement">
                 <em>from $25 / month</em>
             </p>
         </div>
     
         <div class="price-AC self-hosted">
-            <img src="images/IconWait.png" alt="*">
-            <h2>Self-Hosted</h2>
+            <img src="images/selfhosted-plan@2x.png" alt="*">
+            <h3>Self-Hosted</h3>
             <p>Installs on your own server</p>
             <p>unlimited team members</p>
             <p>one year of support included</p>
-            <p class="buton-blue">Sel-Hosted Pricing</p>
+            <p class="buton-blue">
+                <a href="#">Self-Hosted Pricing</a>
+            </p>
             <p class="price-abonement">
                 <em>one time fee — from $999</em>
             </p>
@@ -117,20 +125,59 @@
 
 
 <section class="contain-who-use-active-collab">
-    <h2>Who's using Active Collab?</h2>
-    <p>For more than 10 years, we've been trusted by over 200,00 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.</p>
+    <div class="container-text">
+        <h2>Who's using Active Collab?</h2>
+        <p class="hero-text">For more than 10 years, we've been trusted by over 200,00 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.</p>
+    </div>
+    <img src="images/ac-customers@2x.png" alt="logo company" class="logo-company-who-use-collab" height="150">
+    <!-- <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
     <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
     <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
     <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
     <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
     <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
-    <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
-    <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
-    <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100">
+    <img src="images/IconWait.png" alt="logo company" class="logo-company-who-use-collab" height="100"> -->
 </section>
 
 
 
+<!-- ****************************************************************** Section 5 ********************************************** -->
+
+
+<section>
+    <h2>Get started with Active Collab</h2>
+    <p>Enter your details to get a month of Active Collab absolutely free, without any limitations.</p>
+
+
+<!-- ****************************************************************** formulaire ********************************************** -->    
+
+<form action="" method="post">
+    <div>
+        <label for="username">Your Name or Organization</label>
+        <input type="text" id="username" name="username" value="Enter name or organization">
+    </div>
+    <div>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="user_email" value="name@organization.com" />
+      </div>
+    <div>
+        <label for="pass">Password</label>
+        <input type="name" id="pass" name="password" minlength="8" value="The longer, the stronger" required>
+    </div>
+    
+    <input class="buton-blue" type="submit" value="Start my free month!">
+
+    <p>Hope you'll enjoy it!</p>
+</form>
+
+<!-- **************************************************************************************************************** -->
+
+    <p>Your data is safe with us.</p>
+    <p>
+        <a href="#">Active Collab security</a>
+    </p>
+
+</section>
 
 
 

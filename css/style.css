@@ -2,13 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(59,61,60);
+    font-family:adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    color: rgb(32,37,40);
+    font-weight: 400;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+
+body {
+    overflow-x: hidden;
+    font-size: 1em;
+    background-color: #fff;
+    color: #202528;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+a{   
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
 
 /*************************** Header Nav ************************/
 
@@ -31,15 +50,23 @@ nav {
     width: 100%;
 }
 
+
+nav ul{
+    margin: .25em 1em .25em 2em;
+}
+
 nav li {   
     display: inline;
-    margin: 0 15px;
     list-style: none;
     text-decoration: none; 
     font-weight: 600; 
+    font-size: 1.125em;
+    margin-right: 1em;
+    padding: 0.36em 0;
+    transition: all 0.2s ease-in-out;
 }
 nav li a:hover{
-    color: rgb(174,181,194);
+    color: rgb(114, 124, 142);
 }
 .nav-droite{
     margin: 0 40px 0 auto;
@@ -47,39 +74,45 @@ nav li a:hover{
 
 header h1{
     text-align: center;
-    font-weight: 380;
-    font-size: 4rem;
+    font-size: 2.625em;
+    line-height: 1.1;
+    font-weight: 300;
     padding: 60px 0;
+    margin: .7em 0 .95em;
 }
 
-/****************************************************/
-
-a{   
-    color: rgb(59,61,60);
-    text-decoration: none;
-}
 
 /*************************** Section1 "contain what it does" ************************/
 
 .contain-what-it-does{
     box-sizing: border-box;
-    width: 100%;
     background-color: rgb(63,70,85);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    border: 2px solid rgb(59,61,60);
-}
-.contain-what-it-does div{
-    width: 16%;
-    padding: 40px;  
+    border: solid rgb(59,61,60);
+    border-width: 1px 0 1px 0;
+    margin: 0 auto;
+    width: 100%;
 }
 
+.container-hero{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1280px;
+    display: flex;
+    margin:0 auto;
+}
+
+
+.hero-feature {
+    padding: 2.2em 1.25em;
+    width: 50%;
+}
+
+
 .contain-what-it-does .int {  
-    border-width: 0 2px 0 2px;
+    border-width: 0 1px 0 1px;
     border-style: solid;
-    border-color: rgb(59,61,60);
+    border-color: rgb(0, 0, 0);
 }
 
 .int + .time-tracking{
@@ -87,30 +120,34 @@ a{
 }
 
 .img-section1{
-    margin: 0 auto;
-    max-height: 230px;
+    width: 158px;
+    height: 158px;
 }
-
+.team-collaboration img{
+    width: 200px;
+}
 .contain-what-it-does h3{
-    letter-spacing: 0.1em;
+    font-size: 1.125em;
+    line-height: 1.3;
+    font-weight: 600;
     color: white;
     padding-top: 20px;
 }
 
 .contain-what-it-does p{
-    color: rgb(140,145,153);
+    margin-top: 1em;
+    text-rendering: optimizespeed;
+    color: rgb(178, 181, 187);
     padding: 10px;
 }
 
 /*************************** Section2 "contain try it" ************************/
 
 .contain-try-it{
-    background-color:rgb(231,235,240);
     margin: 0 auto;
-    width: 100%;
+    background-color:rgb(233, 237, 242);
     text-align: center;
-    /* background-image: url(../images/icon-bg.jpg); */
-    overflow: hidden;
+    width: 100%;
 }
 
 .contain-text-try-it{
@@ -118,34 +155,44 @@ a{
     max-width: 800px;
 }
 
-.contain-try-it h2, .container-text-cloud p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
+
+.hero-text{
+    font-size: 1.5em;
+    font-family: freight-text-pro,Georgia,sans-serif;
     line-height: 2.2rem;  
     padding: 40px;
 }
 
-h2+.buton-blue a{
+h2+.buton-blue a {
     display: inline-block;
-    background-color: rgb(70,140,243);
+    background-color: rgb(63, 155, 248);
     color: rgb(246,251,254);
-    margin: 20px;
-    padding: 0 30px;
-    border: 1px solid rgb(59,61,60);
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    padding: 0.2em 2em;
+    border: 1px solid #202528;
     border-radius: 5px;
-    font-size: 1.2rem;
-}
-.contain-try-it p{
-    font-size: 0.8rem;
-}
-.img-task-manager {
-    margin-top: 100px;
-    margin-bottom: -4px;
-    width: 50%;
-    box-shadow: 0 0 30px rgba(59,61,60,0.5);
-    border-radius: 15px;
 }
 
+.contain-text-try-it p{
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: .875em;
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+.container-img-task-manager{
+    background: transparent url('../images/deco-icons-hero@2x.png') no-repeat 50% 65%;
+    background-size: 1610px 250px;
+}
+
+.img-task-manager {
+    margin-top: 50px;
+    margin-bottom: -8px;
+    width: 50%;
+}
 
 /*************************** Section3 "contain cloud server" ************************/
 
@@ -156,27 +203,19 @@ h2+.buton-blue a{
     text-align: center;
 }
 
-.container-text-cloud{
+.container-text{
     margin: 0 auto;
-    max-width: 800px;
+    width: 41%;
 }
 
-.container-text-cloud h2{
-    text-align: center;
-    font-weight: 380;
-    font-size: 2rem;
+.container-text h2{
+    font-size: 2em;
 }
 
-.container-text-cloud p{
+.cloud p{
+    margin: 0 auto;
     padding: 20px 0 80px 0;
-}
-
-.price-AC{
-    text-align: center;
-    justify-content: center;
-    height: 400px;
-    width: 300px;
-    padding: 60px;
+    width: 92%;
 }
 
 .container-price{
@@ -186,40 +225,60 @@ h2+.buton-blue a{
     margin: 0 auto;
 }
 
+.price-AC{
+    height: 400px;
+    width: 350px;
+    padding: 60px;
+}
 .price-AC.monthly-plans{
-    border-right: 1px solid rgb(133, 133, 133);
+    border-right: 1px solid rgb(132, 37, 40, 0.15);
 }
 
 .contain-cloud-server img{
     width: 200px;
 }
 
-.price-AC h2{
-    font-size: 2rem;
+.price-AC h3{
+    font-size: 1.7em;
     padding: 10px;
 }
 
-.price-AC p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.1rem;
-    line-height: 2rem; 
+
+.price-AC p, .price-abonement em{
+    font-family: freight-text-pro,Georgia,sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em; 
 }
 
-.price-AC p.buton-blue{
+.price-AC p.buton-blue a{
     display: inline-block;
-    background-color: rgb(70,140,243);
+    background-color: rgb(63, 155, 248);
     color: rgb(246,251,254);
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    font-size: 0.9em;
+    font-weight: 550;
     margin: 20px;
-    padding: 0 10px;
-    border: 1px solid rgb(59,61,60);
+    padding:0.2em  1em;
+    border: 1px solid #202528;
     border-radius: 5px;
-    font-size: 1.2rem;
 }
 
-.price-AC p.price-abonement{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.price-abonement em{
     margin: 0 20px;
 }
 
 /*************************** Section4 "contain who use active collab" ************************/
+
+.contain-who-use-active-collab{
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color:rgb(233, 237, 242);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*************************** Section5 "Le formulaire" ************************/
+
 
