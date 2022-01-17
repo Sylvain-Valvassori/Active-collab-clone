@@ -10,4 +10,4 @@ Le but de l'exercice était de tester nos capacités à reproduire une maquette 
 ##### It is not yet responsive
 
 
-[visite mon travail](https://sylvain-valvassori.github.io/Project-active.collab.github.io/)
+[visite mon travail](https://sylvain-valvassori.github.io/Active-collab-clone/)
